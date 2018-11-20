@@ -1,0 +1,17 @@
+{
+  "name": "bicycle",
+  "version": "0.0.1",
+  "description": "bicycle project",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "dependencies": {
+    "browser-sync": "^2.24.6",
+    "jquery-migrate": "^3.0.1",
+    "swiper": "^4.4.2",
+    "tiny-slider": "^2.8.7"
+  }
+}

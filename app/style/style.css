@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.main-screen {
+  height: 80vh;
+  color: #fff;
+  background-color: #292c46; }
+  .main-screen .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
+    .main-screen .navigation__menu {
+      display: flex; }
+      .main-screen .navigation__menu .menu__item {
+        margin-top: 45px;
+        margin-bottom: 45px;
+        margin-left: 58px; }
+        .main-screen .navigation__menu .menu__item a {
+          text-decoration: none;
+          font-size: 13px;
+          color: #fff;
+          font-family: "Relaway", sans-serif;
+          font-weight: bold; }
+  .main-screen .content-container {
+    padding-top: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main-screen .content-container .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .main-screen .content-container .info__title {
+        text-transform: uppercase;
+        font-size: 65px;
+        line-height: 71px;
+        color: #ffffff;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        text-align: center;
+        max-width: 860px; }
+      .main-screen .content-container .info__text {
+        font-size: 22px;
+        line-height: 33px;
+        color: #ffffff;
+        font-family: "Relaway", sans-serif;
+        text-align: center;
+        max-width: 1000px; }
+    .main-screen .content-container .button--find {
+      margin-top: 75px;
+      font-size: 13px;
+      line-height: 21px;
+      color: #ffffff;
+      font-family: "Relaway", sans-serif;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-align: center;
+      background-color: #e84545;
+      padding: 20px 0px;
+      border: none;
+      width: 200px; }
+
+main .features {
+  padding: 120px 365px;
+  display: flex;
+  flex-wrap: wrap; }
+  main .features .feature {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 45px;
+    width: 33.33333%; }
+    main .features .feature img {
+      width: 20%; }
+    main .features .feature__title {
+      margin-top: 34px;
+      font-size: 14px;
+      color: #2d3033;
+      font-family: "Relaway", sans-serif;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 26px; }
+    main .features .feature__text {
+      font-size: 14px;
+      line-height: 21px;
+      color: #6c7279;
+      font-family: "Relaway", sans-serif;
+      text-align: center; }
+
+main .works {
+  width: 100%;
+  display: flex; }
+  main .works__items {
+    padding: 0;
+    width: inherit;
+    max-width: 25%; }
+    main .works__items .item {
+      display: flex; }
+    main .works__items .item--hover {
+      height: 267px; }
+  main .works .item--hover {
+    width: 100%;
+    height: 265px;
+    display: flex; }
+    main .works .item--hover a {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      background-image: none;
+      justify-content: center;
+      align-items: center;
+      flex-grow: 1;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      opacity: 0;
+      background-color: rgba(100, 194, 158, 0.8); }
+      main .works .item--hover a:hover {
+        opacity: 1;
+        cursor: pointer;
+        transition: all 400ms ease; }
+      main .works .item--hover a:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        z-index: -1; }
