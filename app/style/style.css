@@ -493,7 +493,7 @@ button:hover {
     z-index: 1;
     transition: all .4s ease; }
   .menu.open .menu__item {
-    padding: 20px 0px;
+    padding: 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center; }
@@ -532,3 +532,34 @@ button:hover {
     width: 100%; }
   .client__slider {
     padding: 44px 25px 48px 71px; } }
+
+@media screen and (max-width: 440px) {
+  .navigation {
+    padding-left: 20px; }
+  .main-screen .info__title {
+    font-size: 35px; }
+  .main-screen .info__text {
+    font-size: 19px; }
+  .client__slider .info__quote {
+    font-size: 25px; } }
+
+@media screen and (max-width: 390px) {
+  .main-screen .info__title {
+    font-size: 23px; }
+  .main-screen .info__text {
+    font-size: 15px; }
+  .main-screen .download .info__title {
+    margin-bottom: 54px; } }
+
+@media screen and (max-width: 320px) {
+  .main-screen .info__title {
+    font-size: 23px;
+    line-height: 40px; }
+  .client__slider {
+    padding: 13px 25px 33px 18px; }
+  .download__button {
+    padding: 13px 50px; }
+  .footer {
+    padding: 70px 20px; }
+  .copyright {
+    padding: 22px 10px; } }
