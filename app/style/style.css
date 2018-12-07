@@ -235,9 +235,15 @@ button:hover {
   display: flex; }
   .client__photo, .client__slider {
     width: 50%; }
-  .client__photo img {
-    width: 100%;
-    height: 100%; }
+  .client__photo {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: url("../images/Layer 19.png") no-repeat center/cover; }
+    .client__photo img {
+      width: 100%;
+      height: 100%; }
   .client__slider {
     position: relative;
     background-color: #53354a;
@@ -261,7 +267,7 @@ button:hover {
         text-transform: uppercase;
         margin: 26px 5px; }
   .client .slick-dotted.slick-slider {
-    margin: 0 !important; }
+    margin: 0; }
   .client .slick-dots {
     bottom: 10%;
     right: 14%; }
@@ -380,7 +386,8 @@ button:hover {
     width: 100%;
     color: #808080; }
     .copyright__text .icon {
-      color: #e84545; }
+      color: #e84545;
+      font-size: 18px; }
     .copyright__text .author {
       color: #fff; }
 
@@ -505,7 +512,7 @@ button:hover {
   .client__slider {
     position: relative;
     background-color: #53354a;
-    padding: 44px 0 48px 71px; } }
+    padding: 44px 13px 48px 24px; } }
 
 @media screen and (max-width: 768px) {
   .main-screen .info__title, .main-screen .info__text {
@@ -531,7 +538,9 @@ button:hover {
   .features .info, .works .item, .team .member {
     width: 100%; }
   .client__slider {
-    padding: 44px 25px 48px 71px; } }
+    padding: 44px 25px 48px 71px; }
+  .client .slick-dotted.slick-slider {
+    margin-top: -4px; } }
 
 @media screen and (max-width: 440px) {
   .navigation {
